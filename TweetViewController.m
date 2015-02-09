@@ -36,8 +36,6 @@
 
     UIImageView *logoView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Twitter_logo_blue_32.png"]];
     self.navigationItem.titleView = logoView;
-
-    
     self.tweetsTable.dataSource = self;
     self.tweetsTable.delegate = self;
 
